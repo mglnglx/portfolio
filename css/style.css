@@ -1,0 +1,606 @@
+@font-face{
+    src: url("../fonts/Avenir.ttc");
+    font-family: 'Avenir';
+
+    src: url("../fonts/Afterglow-Regular.ttf");
+    font-family: 'Afterglow-Regular';
+}
+
+body{
+    font-family: "Avenir";
+    font-size: 13px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    font-size: 16px;
+    margin-bottom: 200px;
+}
+
+nav a{
+    transition: 0.2s;
+}
+
+nav a:hover{
+    color: yellow;
+    transition: 0.2s;
+}
+
+.logo{
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-size: 16px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+nav ul li{
+    margin-left: 20%;
+}
+
+.intro{
+      text-align: center;
+      margin-top: 300px;
+      font-family: "Afterglow-Regular";
+} 
+
+.name{
+    text-align: center;
+    font-family: "Afterglow-Regular";
+    font-size: 40px;
+} 
+
+.prof{
+    text-align: center;
+}
+
+.scroll{
+    text-align: center;
+    font-family: "Afterglow-Regular";
+    font-size: 15px;
+    margin-top: 250px;
+    padding-bottom: 0;
+}
+
+.arrow{
+    padding-top: 0;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 100px;
+}
+
+/* --------------Projects---------------- */
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}
+
+#container{
+    margin-top: 200px;
+}
+
+.projectimagen{
+    width: 90%;
+}
+
+.project{
+    text-align: center;
+    transition: all 0.2s ;
+}
+
+.projectbox{
+    width: 49%;
+    transition: all 0.2s ;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.projectbox:hover .project{
+    opacity: 50%;
+    transition: all 0.2s ;
+}
+
+.projectbox h2{
+    font-family: "Afterglow-Regular";
+    font-size: 40px;
+    margin-top: -10px;
+    opacity: 0%;
+    text-align: left;
+    transition: all 0.2s ;
+    padding-left: 60px;
+    letter-spacing: 2px;
+}
+
+.projectbox h2{
+  position: absolute;
+}
+
+.projectbox:hover h2{
+    transition: all 0.5s ;
+    padding-left: 15%;
+    opacity: 100%;
+}
+
+.projectbox h4{
+    font-size: 20px;
+    margin-top:35px;
+    opacity: 0%;
+    text-align: left;
+    transition: all 0.2s ;
+    padding-left: 40px;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+.projectbox h4{
+  position: absolute;
+}
+
+.projectbox:hover h4{
+    transition: all 0.5s ;
+    padding-left: 15%;
+    opacity: 100%;
+}
+
+.projectimagen{
+    transition: all 0.2s ;
+}
+
+.projectbox:hover img{
+    box-shadow: 0px 25px yellow;
+    transition: all 0.2s ;
+
+}
+
+/* -----------------Projects End------------------- */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.yellow{
+    color: yellow;
+    text-decoration: underline black;
+}
+
+
+.about{
+    margin: 30px;
+    text-align: center; 
+    display: flex;
+    margin-top: 100px;
+}
+
+.about div  {
+    width: 50%;
+}
+
+.propic{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.description{
+    font-family: "Afterglow-Regular";
+    font-size: 30px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.skills{
+    display: flex;
+}
+
+.whatido{
+    font-family: "Afterglow-Regular";
+    font-size: 20px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+
+.ux ul{
+    list-style-type: none;
+    margin-top: 70px;
+}
+
+.tools{
+    font-family: "Afterglow-Regular";
+    font-size: 20px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+
+.ui ul{
+    list-style-type: none;
+    margin-top: 60px;
+}
+
+.buttontalk{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hello{
+    font-family: "Afterglow-Regular";
+    font-size: 16px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.buttontalk{
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.buttontalk{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px black;
+    background-color: white;
+    box-shadow: 0px 4px #888888;
+    transition: all 0.2s ;
+
+}
+
+.buttontalk:hover{
+    box-shadow: 0px 4px yellow;
+    transition: all 0.2s ;
+
+}
+
+.wrap1{
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.buttoncel1{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border: solid 1px black;
+    background-color: white;
+    box-shadow: 0px 4px #888888;
+    transition: all 0.2s ;
+
+}
+
+.buttoncel1:hover{
+    box-shadow: 0px 4px yellow;
+    transition: all 0.2s ;
+
+}
+
+.buttonmail1{
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.buttonmail1{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: white;
+    box-shadow: 0px 4px #888888;
+    transition: all 0.2s ;
+
+}
+
+.buttonmail1:hover{
+    box-shadow: 0px 4px yellow;
+    transition: all 0.2s ;
+
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 300px;
+}
+
+
+.socials{
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    border: solid 1px black;
+    background-color: white;
+    box-shadow: 0px 4px #888888;
+    width: 25px;    
+}
+
+.socials2{
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px black;
+    background-color: white;
+    box-shadow: 0px 4px #888888;
+    width: 28px;
+}
+
+#insta{
+    transition: all 0.2s ;
+}
+
+#linkedin{
+    transition: all 0.2s ;
+}
+
+#medium{
+    transition: all 0.2s ;
+}
+
+#insta:hover{
+    box-shadow: 0px 4px yellow;
+    transition: all 0.2s ;
+}
+
+#linkedin:hover{
+    box-shadow: 0px 4px yellow;
+    transition: all 0.2s ;
+}
+
+#medium:hover{
+    box-shadow: 0px 4px yellow;
+    transition: all 0.2s ;
+}
+
+footer{
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    margin-top: 100px;
+    bottom: 10px;
+}
+
+.footer2{
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    margin-top: 400px;
+    bottom: 10px;
+}
+
+.mainproject h2{
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Afterglow-Regular";
+    font-size: 40px;
+}
+
+.mainproject img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;    
+}
+
+.projectdescription{
+    margin-top: 50px;
+    display: block;
+    width: 40%;
+    font-size: 16px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectdescription h3{
+    font-style: oblique;
+}
+
+@keyframes fadeIn 
+    {
+    from {opacity: 0;}
+  
+    to {opacity: 1;}
+    }
+  .fadeIn {
+    animation: fadeIn 1s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------ Responsive ------------*/
+
+@media(max-width:769px){
+    .about div  {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .about{
+        display: block;
+        margin-top: 0;
+    }
+
+    .propic{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .description{
+        text-align: center;
+        margin-left: 0px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .skills{
+        width: 100%;
+        display: block;
+    }
+
+    .whatido{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0em;
+    }
+    
+    .ux ul{
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0em;
+        padding-left: 0em;
+    }
+    
+    .tools{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0em;
+    }
+    
+    .ui ul{
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0em;
+        padding-left: 0em;
+        margin-bottom: 50px;
+    }
+
+    .about{
+        margin-top: 100px;
+    }
+    
+    .projectbox h2{
+        font-family: "Afterglow-Regular";
+        font-size: 20px;
+        margin-top: 10px;
+        opacity: 100%;
+        text-align: left;
+        transition: all 0.2s ;
+        padding-left: 30px;
+    }
+    
+    .projectbox h2{
+      position: absolute;
+    }
+
+    .projectbox h4{
+        font-size: 13px;
+        margin-top:35px;
+        opacity: 100%;
+        text-align: left;
+        transition: all 0.2s ;
+        padding-left: 30px;
+        font-weight: 100;
+        font-style: oblique;
+    }
+    
+    .projectbox h4{
+        position: absolute;
+    }
+
+    .projectbox{
+        width: 98%; 
+    }
+        
+    .projectbox img{
+        box-shadow: 0px 25px yellow;
+    }
+
+    .mainproject img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;    
+    }
+
+    .projectdescription{
+        margin-top: 50px;
+        display: block;
+        width: 90%;
+        font-size: 16px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+
+}
