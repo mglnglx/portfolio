@@ -298,7 +298,7 @@ html{
 
 }
 
-.wrap1{
+.buttoncel1{
     
     margin-top: 20px;
     margin-bottom: 10px;
@@ -311,10 +311,9 @@ html{
     font-weight: bolder;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     cursor: pointer;
     padding: 10px;
-    text-align: center;
     border: solid 1px black;
     background-color: white;
     box-shadow: 0px 4px #888888;
