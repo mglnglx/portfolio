@@ -659,7 +659,11 @@ footer{
         text-align: left;
         margin-left: auto;
         margin-right: auto;
-    }    
+    }   
+    
+    .secondmainimg img{
+        width: 100%;
+    }
 
 }
 
