@@ -666,5 +666,24 @@ footer{
         opacity: 0;
     }
 
-}
+    .mainfooter{
+     display: block;
+     justify-content: center;
+    }
 
+    .mainfooter ul{
+        display: flex;
+        margin-left: 0%;
+    }
+
+    .contacts{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .maincontacts{
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+
+}
